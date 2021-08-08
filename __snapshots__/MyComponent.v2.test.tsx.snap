@@ -5,3 +5,9 @@ exports[`MyComponent test v2 has a first child 1`] = `
   Hello world!
 </h1>
 `;
+
+exports[`MyComponent test v2 has a first child with disabled checks 1`] = `
+<h1>
+  Hello world!
+</h1>
+`;

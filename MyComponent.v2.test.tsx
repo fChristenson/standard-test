@@ -11,7 +11,6 @@ describe("MyComponent test v2", () => {
   it("has a first child with disabled checks", () => {
     const { container } = enhancedRender(<MyComponent />, {
       disableA11yTest: true,
-      disableSnapshotTest: true,
     });
     expect(container.firstChild).toBeTruthy();
   });
